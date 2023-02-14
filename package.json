@@ -1,0 +1,34 @@
+{
+  "name": "@tomiaa/theme-chalk",
+  "version": "0.0.6",
+  "description": "这里是 @tomiaa/* 的样式库",
+  "main": "lib",
+  "scripts": {
+    "build": "gulp",
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -n ./changelog.ts"
+  },
+  "keywords": [
+    "theme-chalk",
+    "bem"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.2.2",
+    "@types/gulp": "^4.0.9",
+    "@types/gulp-sass": "^5.0.0",
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.4",
+    "ts-node": "^10.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomiaa12/theme-chalk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomiaa12/theme-chalk/issues"
+  },
+  "homepage": "https://github.com/tomiaa12/theme-chalk#readme"
+}
